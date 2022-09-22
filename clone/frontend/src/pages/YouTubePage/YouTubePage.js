@@ -4,14 +4,15 @@ import React, { useEffect, useState } from "react";
 
 // Axios 
 import axios from "axios";
+// HardCoded Data
+import { hardCodedData } from "../SearchResultsPage/hardCodedData";
 
 // Searchbar
-
-// HardCoded Data
-
+import SearchBar from "../../components/SearchBar/SearchBar";
 // Pages 
-
-    // Need SearchResultsPage 
+import SearchResultsPage from "../SearchResultsPage/SearchResultsPage";
+import VideoPage from "../VideoPage/VideoPage";
+// Need SearchResultsPage 
  // Need VideoPage 
 
 

@@ -4,7 +4,7 @@ import React from "react";
 import "./SearchResultsPage.css";
 // Components 
  // Need VideoList 
-
+import VideoList from "../../components/VideoList/VideoList";
  const SearchResultsPage = ({ results }) => {
     return (
         <div>

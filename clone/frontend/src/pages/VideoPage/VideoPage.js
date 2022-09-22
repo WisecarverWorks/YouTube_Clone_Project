@@ -1,13 +1,18 @@
 // General 
 import React, { useState, useEffect } from "react";
 import { useLocation, useParams } from "react-router-dom";
+// Axios
+import axios from "axios";
 // Related data
 import { relatedData } from "./relatedHardCodedData";
 // CSS 
 import "./VideoPage.css";
 // Component 
  // Need CommentList, VideoPlayer, VideoInfo, VideoList 
-
+import CommentList from "../../components/VideoList/VideoList";
+import VideoPlayer from "../../components/VideoPlayer/VideoPlayer";
+import VideoInfo from "../../components/VideoInfo/VideoInfo";
+import VideoList from "../../components/VideoList/VideoList";
 const VideoPage = () => {
     const { videoId } = useParams();
     const { state } = useLocation();
