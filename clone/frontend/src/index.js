@@ -1,7 +1,14 @@
+// General
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-
+// Component 
+// Hook
+// Context 
+import { AuthProvider } from './context/AuthContext';
+// CSS 
+// Utils
+// Pages 
 // We need Auth Provider 
 
 // Router
