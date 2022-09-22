@@ -1,0 +1,35 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.25rem;
+}
+
+.navBar {
+  background: rgb(28,28,28);
+  box-shadow: 4px 2px 5px gray;
+  color: white;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.navBar button {
+  background: transparent;
+  border: 2px solid greenyellow;
+  color: greenyellow;
+  padding: 0.4rem 0.5rem;
+}
+
+.navBar button:hover {
+  background: transparent;
+  color: slateblue;
+  cursor: pointer;
+}
+
+.brand {
+  cursor: pointer;
+  font-size: 2rem;
+}
